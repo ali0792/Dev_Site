@@ -160,7 +160,7 @@ export const BentoGridItem = ({
                       preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
-                  height={200}
+                  height={100}
                   width={400}
                 />
               </div>
