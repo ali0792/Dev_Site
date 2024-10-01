@@ -19,7 +19,7 @@ const RecentProjects = () => {
             <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[20vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="/bg.png" alt="bg-img" />
                 </div>
                 <img src={img} alt="cover" className="z-10 absolute bottom-0" />
               </div>
@@ -43,7 +43,7 @@ const RecentProjects = () => {
                 </div>
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    Check GitHub Repo
                   </p>
                   <FaLocationArrow className="ms-3" color="CBACF9" />
                 </div>

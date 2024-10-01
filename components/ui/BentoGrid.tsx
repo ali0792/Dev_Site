@@ -117,9 +117,9 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 p-2">
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* added p-2 above */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
                 {["TypeScript", "React.js", "Next.js"].map((item) => (
                   <span
                     key={item}
@@ -128,10 +128,10 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                <span className="py-4 px-3 lg:py-4 lg:px-3 rounded-lg text-center bg-[#10132E]" />
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+              <div className="flex flex-col gap-3 lg:gap-5">
+                <span className="py-4 px-3 lg:py-4 lg:px-3 rounded-lg text-center bg-[#10132E]" />
                 {["JavaScript", "Angular", ".Net"].map((item) => (
                   <span
                     key={item}
@@ -145,7 +145,7 @@ export const BentoGridItem = ({
           )}
 
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="relative">
               <div
                 className={`aboslute -bottom-5 right-0 ${
                   copied ? "block" : "block"
@@ -160,7 +160,7 @@ export const BentoGridItem = ({
                       preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
-                  height={100}
+                  height={80}
                   width={400}
                 />
               </div>

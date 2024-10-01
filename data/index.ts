@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#testimonials" },
+  { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Bon Voyage",
+    des: "A full-stack web application that compares affordable travel destinations with the aid of visual graphics.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://github.com/Capstone-Bi-Coastal-Visualizers/data-visualization",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "MVP-Telecom",
+    des: "A .NET telecom portal utilizing Azure services for logged-in users to purchase and customize phone plans.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/SyedAli-07/TelecomApp",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Grayce-Shoppa",
+    des: "An E-Commerce web application with an Administrative Hub and responsive shopping cart.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/fsa-2104-gs-team-08/GraceShopper",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Flight Management Application",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/SyedAli-07/SSProject1",
   },
 ];
 
@@ -173,15 +173,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "React Engineer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full-stack Developer",
+    desc: "Led the development of a web-based platform using technologies like DotNet, Azure, React, SQL, and more.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Power Platform Developer",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Developed and implemented solutions on the Power Platform, enhancing productivity through automated workflows and seamless data integration.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -205,13 +205,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ali0792",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/syedali07/",
   },
 ];
